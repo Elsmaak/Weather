@@ -1,0 +1,187 @@
+body {
+    background-color: #1e202b;
+    font-family: "Titillium Web", sans-serif;
+}
+
+nav {
+    background-color: #262936;
+}
+
+.nav-title p {
+    color: rgb(171, 171, 171);
+    font-size: 0.75rem;
+    margin-bottom: 0;
+}
+
+.nav-title h2 {
+    font-weight: 700;
+}
+
+.collapse ul li a {
+    color: white;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+    display: inline-block;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 5px 25px;
+
+}
+
+.collapse ul li a.active {
+    border: 2px solid #009ad8;
+    border-radius: 30px;
+    color: #009ad8;
+}
+
+.collapse ul li a:hover {
+    border: 2px solid #009ad8;
+    border-radius: 30px;
+    color: #009ad8;
+}
+
+.form-floating .form-control {
+    border-radius: 30px;
+}
+
+.form-floating button {
+    padding: 14px 0;
+    top: 5%;
+    right: 0.5%;
+    border-radius: 30px;
+}
+
+.main-index {
+    margin-top: 148px;
+    background-image: url(../banner.png);
+    background-repeat: no-repeat;
+}
+
+.day {
+    background-color: #323544;
+    color: #b2b3ba;
+}
+
+.day .main-h1 {
+    font-weight: 700;
+    font-size: 90px;
+    color: white;
+}
+
+.day-header {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.day-footer span {
+    padding-right: 10px;
+}
+
+footer {
+    background-color: #262936;
+}
+
+.GIT-icons .icon-circle {
+    height: 40px;
+    width: 40px;
+    box-shadow: 0 0 0 3px #0078ff;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.GIT-icons .icon-fix {
+    font-size: 20px;
+}
+
+.GIT-icons .icon-circle:hover {
+    color: white;
+    background-color: #0078ff;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.8);
+}
+
+.GIT-icons .icon-circle:hover .icon-fix {
+    color: white;
+}
+
+footer .form-control {
+    background-color: #1e202b;
+}
+
+footer .form-floating>label {
+    color: wheat;
+}
+
+.news-header::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    inset: 0;
+    z-index: -1;
+}
+
+.header-item>div {
+    width: 40%;
+}
+
+.header-footer a {
+    --bs-dark-rgb: 27, 32, 91;
+}
+
+.header-footer a:hover {
+    color: RGBA(0, 7, 255, var(--bs-link-opacity, 1)) !important;
+}
+
+nav.nav-contact {
+    background-color: #1e202b;
+}
+
+.header-contact {
+    background-color: #262936;
+}
+
+.main-contact {
+    color: #bfc1c8;
+}
+
+.header-contact a {
+    color: lightskyblue;
+    transition: all 0.3s;
+}
+
+.header-contact a:hover {
+    color: rgb(31, 104, 149);
+}
+
+figure {
+    background: #262936;
+}
+
+figcaption a {
+    color: #bfc1c8;
+    text-decoration: none;
+}
+
+figcaption i {
+    color: rgb(31, 104, 149);
+}
+
+figcaption a:hover {
+    color: #86878a;
+}
+
+iframe {
+    width: 100%;
+    height: 350px;
+}
+
+form .form-control,
+textarea {
+    background-color: transparent;
+    color: wheat;
+}
+
+.form-floating>textarea.form-control {
+    height: 150px;
+    resize: vertical;
+    max-height: 260px;
+}
